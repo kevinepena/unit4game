@@ -45,6 +45,7 @@ $(document).ready(function () {
             wins++;
             randomNumbers();
             $("#wins").text(wins);
+            
 
         } else if (userNum > randNum) {
             losses++;

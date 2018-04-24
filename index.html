@@ -10,36 +10,42 @@
 
 
     <body>
-        <header>
-            <h1>Choose Your Element</h1>
+        <header class="mainHead">
+            Choose Your Element
         </header>
-        <h1>Random Number: </h1>
-        <div id="ranNum"></div>
-
-        <div class="allButtons">
-            <button id="button1" class="btn" value="1">
-                <img src="assets/images/earth.jpg">
-            </button>
-            <button id="button2" class="btn" value="2">
-                <img src="assets/images/fire.jpg">
-            </button>
-            <button id="button3" class="btn" value="3">
-                <img src="assets/images/wind.jpg">
-            </button>
-            <button id="button4" class="btn" value="4">
-                <img src="assets/images/water.jpg">
-            </button>
+        <br>
+        <div class="arrow">
+            <img src="assets/images/mainarrow.jpg" class="arrow">
+            <div class="insideArrow">
+                Random Number:
+                <div id="ranNum" class="nums"></div>
+                <br>
+                Score:
+                <div id="score" class="nums"></div>
+                <br>
+                Wins:
+                <div id="wins" class="nums"></div>
+                <br>
+                Losses:
+                <div id="losses" class="nums"></div>
+            </div>
         </div>
 
-        <p>Score:
-                <div id="score"></div>
-            </p>
-        <p>Wins:
-            <div id="wins"></div>
-        </p>
-        <p>Losses:
-            <div id="losses"></div>
-        </p>
+        <div class="allButtons">
+            <div id="button1" class="btn" value="1">
+                <img src="assets/images/earth.jpg" class="butPic">
+            </div>
+            <div id="button2" class="btn" value="2">
+                <img src="assets/images/fire.jpg" class="butPic">
+            </div>
+            <div id="button3" class="btn" value="3">
+                <img src="assets/images/wind.jpg" class="butPic">
+            </div>
+            <div id="button4" class="btn" value="4">
+                <img src="assets/images/water.jpg" class="butPic">
+            </div>
+        </div>
+
 
 
         <script src="assets/javascript/game.js"></script>
